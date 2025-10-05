@@ -1,0 +1,14 @@
+2025-10-06 02:55:34,062 - ERROR - JSONDecodeError occurred while parsing JSON.
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_22992\1612834130.py", line 16, in parse_json_with_logging
+    data = json.loads(json_string)
+  File "c:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "c:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\harsh\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 8 (char 7)

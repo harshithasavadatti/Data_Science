@@ -1,0 +1,4 @@
+2025-10-06 02:54:42,810 - ERROR - Error in divide function: division by zero
+2025-10-06 02:54:42,810 - ERROR - Error in read_file function: [Errno 2] No such file or directory: 'file.txt'
+2025-10-06 02:57:34,375 - ERROR - Error in divide function: division by zero
+2025-10-06 02:57:34,376 - ERROR - Error in read_file function: [Errno 2] No such file or directory: 'file.txt'
