@@ -108,7 +108,6 @@ full outer join Products p on c.CustomerID = p.CustomerID
 order by c.CustomerID;
 
 
---7.symmetric difference
 --7. Symmetric Difference
 SELECT 
     c.CustomerID AS Customer_ID,
