@@ -1,0 +1,6 @@
+model,run_id,C,penalty,solver,max_iter,random_state,n_estimators,max_depth,min_samples_split,min_samples_leaf,n_jobs,learning_rate,subsample,colsample_bytree,eval_metric,use_label_encoder,iterations,depth,random_seed,verbose,loss_function
+Logistic_Regression,d6c51e3c321c4e0189676b9f14f81b59,1.0,l2,liblinear,1000.0,42.0,,,,,,,,,,,,,,,
+Random_Forest,174ad4db17454dd385eb751b5e96a767,,,,,42.0,100.0,10.0,5.0,2.0,-1.0,,,,,,,,,,
+Decision_Tree,ee01099dced942d98b814a89d94c77fb,,,,,42.0,,10.0,5.0,2.0,,,,,,,,,,,
+XGBoost,635528af55ae4568a047ea3a3d563989,,,,,42.0,100.0,6.0,,,,0.1,0.8,0.8,logloss,False,,,,,
+CatBoost,e96424872f9043ed864f361a5b03bc7e,,,,,,,,,,,0.1,,,,,100.0,6.0,42.0,False,Logloss
