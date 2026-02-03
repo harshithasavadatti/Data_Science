@@ -24,7 +24,7 @@ model.encode("warmup sentence")
 # =========================================================
 # STEP 3: Initialize Pinecone
 # =========================================================
-PINECONE_API_KEY = "pcsk_28KAeR_HiRv9q9SWM5ytThT3ry3jD8FJK9CBH6HYuviyQWzCwM3JY9W1rAojotCzNgKNH5"
+PINECONE_API_KEY = "API_KEY"
 INDEX_NAME = "latency-seconds-index"
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
@@ -230,3 +230,4 @@ df = pd.DataFrame(results)
 
 print("\n===== LATENCY COMPARISON (SECONDS) =====")
 print(df.groupby("method").mean())
+
