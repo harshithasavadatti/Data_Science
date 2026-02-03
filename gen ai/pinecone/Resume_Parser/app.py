@@ -14,7 +14,7 @@ print("Embedding dimension:", embedding_dim)
 # ---------------------------------------------------------
 # Initialize Pinecone
 # ---------------------------------------------------------
-api_key = "pcsk_28KAeR_HiRv9q9SWM5ytThT3ry3jD8FJK9CBH6HYuviyQWzCwM3JY9W1rAojotCzNgKNH5"   # ⚠️ move to env variable in real projects
+api_key = "API_KEY   # ⚠️ move to env variable in real projects
 pc = Pinecone(api_key=api_key)
 
 index_name = "resume-search-index"
@@ -119,3 +119,4 @@ results = index.query(
 
 print("\nSearch Results:")
 print(results)
+
